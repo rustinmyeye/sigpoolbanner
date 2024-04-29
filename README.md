@@ -21,6 +21,7 @@
         white-space: nowrap; /* ensures text stays on one line */
         display: flex;
         align-items: center; /* vertically center items */
+        font-weight: bold;
     }
 
     #ticker::before {
