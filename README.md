@@ -11,16 +11,14 @@
     }
 
     #ticker {
-        width: 100%;
-        height: 50px;
+        width: 200px;
+        height: 25px;
         overflow: hidden;
         position: relative;
         background-color: white;
         color: #FF5537;
         font-family: 'Roboto', sans-serif; /* Using Roboto font from Google Fonts */
         white-space: nowrap; /* ensures text stays on one line */
-        display: flex;
-        align-items: center; /* vertically center items */
         font-weight: bold;
         text-shadow: 1px 1px 1px #58585A;
     }
@@ -30,7 +28,7 @@
         position: absolute;
         left: 0;
         top: 0;
-        width: calc(20% - 10px); /* Adjust as needed */
+        width: calc(20px - 10px); /* Adjust as needed */
         height: 100%;
         background-color: #58585A; /* Medium gray color matching the logo */
         z-index: 1; /* Ensure it's behind the logo */
@@ -42,6 +40,7 @@
         animation: ticker 14s linear infinite; /* duration slightly faster */
         margin: 0; /* removes default margin */
         padding-left: 0px; /* Add padding to ensure text is not overlapped by the logo */
+        line-height: 25px; /* Center the text vertically within the ticker height */
     }
 
     @keyframes ticker {
@@ -51,7 +50,7 @@
 
     #ticker img {
         position: absolute;
-        left: 18px; /* positioned to the left */
+        left: -2px; /* positioned to the left */
         top: 0;
         height: 100%; /* Use full height of the ticker */
         z-index: 2; /* ensures it's on top */
