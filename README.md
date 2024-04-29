@@ -15,8 +15,8 @@
         height: 50px;
         overflow: hidden;
         position: relative;
-        background-color: black; /* background color changed to black */
-        color: white; /* text color changed to white */
+        background-color: white;
+        color: black;
         font-family: 'Roboto', sans-serif; /* Using Roboto font from Google Fonts */
         white-space: nowrap; /* ensures text stays on one line */
         display: flex;
