@@ -16,7 +16,7 @@
         overflow: hidden;
         position: relative;
         background-color: white;
-        color: black;
+        color: #FF5537;
         font-family: 'Roboto', sans-serif; /* Using Roboto font from Google Fonts */
         white-space: nowrap; /* ensures text stays on one line */
         display: flex;
