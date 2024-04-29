@@ -22,6 +22,7 @@
         display: flex;
         align-items: center; /* vertically center items */
         font-weight: bold;
+        text-shadow: 1px 1px 1px black;
     }
 
     #ticker::before {
