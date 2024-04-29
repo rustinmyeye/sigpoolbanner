@@ -30,7 +30,7 @@
         position: absolute;
         left: 0;
         top: 0;
-        width: calc(30% - 10px); /* Adjust as needed */
+        width: calc(20% - 10px); /* Adjust as needed */
         height: 100%;
         background-color: #58585A; /* Medium gray color matching the logo */
         z-index: 1; /* Ensure it's behind the logo */
