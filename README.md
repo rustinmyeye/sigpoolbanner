@@ -39,9 +39,9 @@
 
     #ticker p {
         display: inline-block;
-        animation: ticker 10s linear infinite; /* duration slightly faster */
+        animation: ticker 14s linear infinite; /* duration slightly faster */
         margin: 0; /* removes default margin */
-        padding-left: 20px; /* Add padding to ensure text is not overlapped by the logo */
+        #padding-left: 20px; /* Add padding to ensure text is not overlapped by the logo */
     }
 
     @keyframes ticker {
