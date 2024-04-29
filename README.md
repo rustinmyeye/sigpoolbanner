@@ -22,7 +22,7 @@
         display: flex;
         align-items: center; /* vertically center items */
         font-weight: bold;
-        text-shadow: 1px 1px 1px black;
+        text-shadow: 1px 1px 1px #58585A;
     }
 
     #ticker::before {
@@ -41,7 +41,7 @@
         display: inline-block;
         animation: ticker 14s linear infinite; /* duration slightly faster */
         margin: 0; /* removes default margin */
-        #padding-left: 20px; /* Add padding to ensure text is not overlapped by the logo */
+        padding-left: 0px; /* Add padding to ensure text is not overlapped by the logo */
     }
 
     @keyframes ticker {
